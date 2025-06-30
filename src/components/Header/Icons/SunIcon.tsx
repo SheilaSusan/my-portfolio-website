@@ -1,8 +1,8 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 
 const transition = {
-  type: 'spring',
+  type: "spring" as const,
   stiffness: 200,
   damping: 10,
 };
