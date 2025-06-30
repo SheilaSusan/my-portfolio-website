@@ -6,27 +6,15 @@ export interface Social {
 const socials: Social[] = [
     {
       name: 'Github',
-      link: 'https://github.com/XsidX',
+      link: 'https://github.com/SheilaSusan',
     },
     {
       name: 'Linked In',
-      link: 'https://www.linkedin.com/in/sidney-kaguli/',
-    },
-    {
-      name: 'Twitter',
-      link: 'https://twitter.com/_sid_o',
-    },
-    {
-      name: 'Medium',
-      link: 'https://medium.com/@sidneykaguli',
-    },
-    {
-      name: 'Wellfound',
-      link: 'https://angel.co/sidney-kaguli',
+      link: 'https://www.linkedin.com/in/sheila-susan-14111a2b8/',
     },
     {
       name: 'Resume',
-      link: 'https://docs.google.com/document/d/1Fg2qQOS2DUQ9nt2wWuEzuwG4JHrVEiY85zPv2G2S0nA/edit?usp=sharing',
+      link: 'https://docs.google.com/document/d/1ilyP2PJTsfK_xHb40rRoQkutdEkJhFBKVifTae_LAkk/edit?tab=t.0',
     },
   ];
   

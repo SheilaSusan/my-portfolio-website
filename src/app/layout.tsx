@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "../components/Footer";
 import Header from "../components/Header/Header";
 import { ThemeProvider } from "./ThemeProvider"
+import { Toaster } from "sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,6 +39,7 @@ export default function RootLayout({
           >
           <main className="pb-8 min-h-screen bg-orange-50 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-300 break-words leading-6 transition-colors duration-500">
             <Header />
+            <Toaster />
             <div className="px-5 pt-14 mx-auto max-w-3xl">
               {children}
             </div>

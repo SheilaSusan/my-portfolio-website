@@ -13,7 +13,7 @@ const Header = () => (
       <nav className="flex items-center gap-5 text-base">
         <ScrollLink to="header" spy smooth offset={-200}>
           <button type="button" className="font-semibold">
-            Sidney Kaguli
+            Sheila Susan
           </button>
         </ScrollLink>
         <div className="items-center gap-6 hidden md:flex">
@@ -28,7 +28,7 @@ const Header = () => (
             </button>
           </ScrollLink>
           <Link
-            href="https://docs.google.com/document/d/1Fg2qQOS2DUQ9nt2wWuEzuwG4JHrVEiY85zPv2G2S0nA/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1ilyP2PJTsfK_xHb40rRoQkutdEkJhFBKVifTae_LAkk/edit?tab=t.0"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline underline-offset-4"
@@ -36,7 +36,7 @@ const Header = () => (
             Resume
           </Link>
           <Link
-            href="https://github.com/XsidX/sid-portfolio"
+            href="https://github.com/SheilaSusan/my-portfolio-website"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2"

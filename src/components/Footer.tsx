@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import { useAnimation, motion } from 'framer-motion';
+import { useAnimation, motion } from 'motion/react';
 import { useInView } from 'react-intersection-observer';
 import Link from 'next/link';
 import socials from '../data/socials';
@@ -32,7 +32,7 @@ const Footer = () => {
         variants={variants}
         animate={controls}
         initial="hidden"
-        transition={{ duration: 0.7, type: 'ease' }}
+        transition={{ duration: 0.7, ease: 'easeInOut' }}
       >
         {
           socials.map((social) => (
@@ -55,7 +55,7 @@ const Footer = () => {
           {' '}
           {new Date().getFullYear()}
           {' '}
-          Sidney Kaguli. All rights reserved.
+          Sheila Susan. All rights reserved.
         </p>
       </div>
     </footer>
