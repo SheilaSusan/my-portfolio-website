@@ -31,7 +31,7 @@ const ProjectsHeading = () => {
       variants={variants}
       animate={controls}
       initial="hidden"
-      transition={{ duration: 0.7, type: 'ease' }}
+      transition={{ duration: 0.7, ease: 'easeInOut' }}
     >
       <SectionHeading overlay className="text-5xl md:text-8xl text-center">Projects</SectionHeading>
       <ShadowBlock />
