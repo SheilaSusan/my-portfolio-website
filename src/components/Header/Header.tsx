@@ -28,7 +28,7 @@ const Header = () => (
             </button>
           </ScrollLink>
           <Link
-            href="https://docs.google.com/document/d/1ilyP2PJTsfK_xHb40rRoQkutdEkJhFBKVifTae_LAkk/edit?tab=t.0"
+            href="file:///C:/Users/ayo/OneDrive/Dokumente/Shillah's%20resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline underline-offset-4"
