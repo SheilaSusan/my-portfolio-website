@@ -25,16 +25,16 @@ const projects: Project[] = [
     theme: 'green',
     type: 'absolute',
     sourceUrl: 'https://github.com/SheilaSusan/Password-Generator',
-    liveUrl: 'https://Password-Generator-sue.netlify.app',
+    liveUrl: 'https://assword-generator.netlify.app/',
   },
   {
-    title: 'Unit Converter',
+    title: 'Deck of Cards API',
     tag: 'ta',
-    description: 'A web application that allows users to convert units of measurement. Built with JavaScript.',
+    description: 'A web application that allows users to fetch a new Deck of cards and play against the computer. It then gives the winner once the game is finished.',
     theme: 'orange',
     type: 'split',
-    sourceUrl: 'https://github.com/SheilaSusan/Unit-converter',
-    liveUrl: 'https://Unit-converter-sue.netlify.app/',
+    sourceUrl: 'https://github.com/SheilaSusan/deck-of-cards-API',
+    liveUrl: 'https://eck-of-cards-api.netlify.app/',
   },
 ];
 
